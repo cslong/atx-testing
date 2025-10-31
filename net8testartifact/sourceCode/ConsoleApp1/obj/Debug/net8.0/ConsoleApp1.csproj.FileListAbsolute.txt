@@ -1,0 +1,4 @@
+/Users/longachr/Downloads/net8testartifact/sourceCode/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/longachr/Downloads/net8testartifact/sourceCode/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/longachr/Downloads/net8testartifact/sourceCode/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfo.cs
+/Users/longachr/Downloads/net8testartifact/sourceCode/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.csproj.CoreCompileInputs.cache
