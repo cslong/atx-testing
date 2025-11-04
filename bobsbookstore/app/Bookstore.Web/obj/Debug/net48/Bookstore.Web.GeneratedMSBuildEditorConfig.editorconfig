@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Bookstore.Web
+build_property.ProjectDir = /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/bobsbookstore/app/Bookstore.Web/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

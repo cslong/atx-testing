@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations.Schema;
 using Bookstore.Domain.Addresses;
 using Bookstore.Domain.Books;
 using Bookstore.Domain.Carts;
@@ -11,6 +11,10 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace Bookstore.Data
 {
+    public class BookstoreDbInitializer : CreateDatabaseIfNotExists<ApplicationDbContext>
+    {
+    }
+
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(string connectionString) : base(connectionString) { }

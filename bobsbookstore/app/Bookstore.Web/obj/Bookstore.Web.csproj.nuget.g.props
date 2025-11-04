@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/tmp/tempfspartition/QnetTransformArtifacts/packages/" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)/microsoft.visualstudio.azure.containers.tools.targets/1.19.5/build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.visualstudio.azure.containers.tools.targets/1.19.5/build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.aspnetcore.systemwebadapters/1.4.0/Build/Microsoft.AspNetCore.SystemWebAdapters.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.aspnetcore.systemwebadapters/1.4.0/Build/Microsoft.AspNetCore.SystemWebAdapters.props')" />
+    <Import Project="$(NuGetPackageRoot)/entityframework/6.5.1/buildTransitive/net6.0/EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)/entityframework/6.5.1/buildTransitive/net6.0/EntityFramework.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgWebGrease Condition=" '$(PkgWebGrease)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/webgrease/1.6.0</PkgWebGrease>
+    <PkgModernizr Condition=" '$(PkgModernizr)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/modernizr/2.8.3</PkgModernizr>
+    <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/microsoft.visualstudio.azure.containers.tools.targets/1.19.5</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/jquery/3.7.0</PkgjQuery>
+    <PkgMicrosoft_CodeDom_Providers_DotNetCompilerPlatform Condition=" '$(PkgMicrosoft_CodeDom_Providers_DotNetCompilerPlatform)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/microsoft.codedom.providers.dotnetcompilerplatform/4.1.0</PkgMicrosoft_CodeDom_Providers_DotNetCompilerPlatform>
+    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/entityframework/6.5.1</PkgEntityFramework>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/awssdk.core/4.0.0.29</PkgAWSSDK_Core>
+    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/awssdk.s3/4.0.7.7</PkgAWSSDK_S3>
+    <PkgAWSSDK_Rekognition Condition=" '$(PkgAWSSDK_Rekognition)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/awssdk.rekognition/4.0.1.11</PkgAWSSDK_Rekognition>
+    <PkgAWSSDK_SimpleSystemsManagement Condition=" '$(PkgAWSSDK_SimpleSystemsManagement)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/awssdk.simplesystemsmanagement/4.0.4.3</PkgAWSSDK_SimpleSystemsManagement>
+    <PkgAWSSDK_CloudWatchLogs Condition=" '$(PkgAWSSDK_CloudWatchLogs)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/awssdk.cloudwatchlogs/4.0.7.1</PkgAWSSDK_CloudWatchLogs>
+  </PropertyGroup>
+</Project>

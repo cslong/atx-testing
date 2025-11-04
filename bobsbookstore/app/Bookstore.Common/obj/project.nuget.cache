@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "oQn4LUnZ+Ro=",
+  "success": true,
+  "projectFilePath": "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/bobsbookstore/app/Bookstore.Common/Bookstore.Common.csproj",
+  "expectedPackageFiles": [
+    "/tmp/tempfspartition/QnetTransformArtifacts/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/tmp/tempfspartition/QnetTransformArtifacts/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

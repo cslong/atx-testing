@@ -1,4 +1,3 @@
-﻿using Amazon.Auth.AccessControlPolicy;
 using Bookstore.Domain;
 using Bookstore.Domain.Offers;
 using Bookstore.Domain.Orders;
@@ -75,8 +74,8 @@ namespace Bookstore.Data.Repositories
             query = query.Include(x => x.Customer)
                 .Include(x => x.Condition)
                 .Include(x => x.Genre);
-         
-                
+
+
 
             var result = new PaginatedList<Offer>(query, pageIndex, pageSize);
 
