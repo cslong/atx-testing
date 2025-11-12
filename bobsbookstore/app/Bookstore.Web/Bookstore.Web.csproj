@@ -68,5 +68,6 @@
     <PackageReference Include="System.ValueTuple" Version="4.6.1" />
     <PackageReference Include="WebGrease" Version="1.6.0" />
     <PackageReference Include="Microsoft.AspNetCore.SystemWebAdapters" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
   </ItemGroup>
 </Project>

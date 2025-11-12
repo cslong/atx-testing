@@ -142,7 +142,7 @@
             },
             "Magick.NET-Q8-AnyCPU": {
               "target": "Package",
-              "version": "[13.9.1, )"
+              "version": "[14.8.2, )"
             },
             "Magick.NET.Core": {
               "target": "Package",
@@ -226,7 +226,7 @@
             },
             "Microsoft.AspNetCore.SystemWebAdapters": {
               "target": "Package",
-              "version": "[1.4.0, )"
+              "version": "[2.0.0, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
@@ -368,7 +368,7 @@
             },
             "Microsoft.AspNetCore.SystemWebAdapters": {
               "target": "Package",
-              "version": "[1.4.0, )"
+              "version": "[2.0.0, )"
             },
             "Microsoft.Bcl.AsyncInterfaces": {
               "target": "Package",
@@ -377,6 +377,10 @@
             "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
             },
             "Microsoft.Extensions.Primitives": {
               "target": "Package",

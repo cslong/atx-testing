@@ -70,7 +70,7 @@
           }
         }
       },
-      "Amazon.JSII.Analyzers/1.118.0": {
+      "Amazon.JSII.Analyzers/1.119.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Amazon.JSII.Analyzers.dll": {}
@@ -532,15 +532,15 @@
         "resources/default-256-dark.png"
       ]
     },
-    "Amazon.JSII.Analyzers/1.118.0": {
-      "sha512": "P0XX/6k/O4vzF3UoUwTRxQQpKY17ydjEamsOx/PVTDNFehvYQj1ybtkJFmRA0hsbsklImJApohTh/Hsob50eYA==",
+    "Amazon.JSII.Analyzers/1.119.0": {
+      "sha512": "J7efzH3WKCaDxmRY3JDdJT1LbPByQxtM5xTc8Xjqh5b9PmoZ7x1u5KdIBcGGKn26+2DsOu7SMfmmr/l67zUl0A==",
       "type": "package",
-      "path": "amazon.jsii.analyzers/1.118.0",
+      "path": "amazon.jsii.analyzers/1.119.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "amazon.jsii.analyzers.1.118.0.nupkg.sha512",
+        "amazon.jsii.analyzers.1.119.0.nupkg.sha512",
         "amazon.jsii.analyzers.nuspec",
         "analyzers/dotnet/cs/Amazon.JSII.Analyzers.dll",
         "icon.png",

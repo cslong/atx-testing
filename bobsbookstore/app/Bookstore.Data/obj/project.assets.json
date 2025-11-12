@@ -77,18 +77,18 @@
           "buildTransitive/net6.0/EntityFramework.targets": {}
         }
       },
-      "Magick.NET-Q8-AnyCPU/13.9.1": {
+      "Magick.NET-Q8-AnyCPU/14.8.2": {
         "type": "package",
         "dependencies": {
-          "Magick.NET.Core": "13.9.1"
+          "Magick.NET.Core": "14.8.2"
         },
         "compile": {
-          "lib/netstandard21/Magick.NET-Q8-AnyCPU.dll": {
+          "lib/net8.0/Magick.NET-Q8-AnyCPU.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard21/Magick.NET-Q8-AnyCPU.dll": {
+          "lib/net8.0/Magick.NET-Q8-AnyCPU.dll": {
             "related": ".xml"
           }
         },
@@ -143,10 +143,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.SystemWebAdapters/1.4.0": {
+      "Microsoft.AspNetCore.SystemWebAdapters/2.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.Caching": "6.0.0"
+          "System.Runtime.Caching": "8.0.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.SystemWebAdapters.dll": {
@@ -274,11 +274,11 @@
           }
         }
       },
-      "System.Configuration.ConfigurationManager/9.0.10": {
+      "System.Configuration.ConfigurationManager/10.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Diagnostics.EventLog": "9.0.10",
-          "System.Security.Cryptography.ProtectedData": "9.0.10"
+          "System.Diagnostics.EventLog": "10.0.0",
+          "System.Security.Cryptography.ProtectedData": "10.0.0"
         },
         "compile": {
           "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
@@ -322,7 +322,7 @@
           }
         }
       },
-      "System.Diagnostics.EventLog/9.0.10": {
+      "System.Diagnostics.EventLog/10.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/System.Diagnostics.EventLog.dll": {
@@ -348,26 +348,26 @@
           }
         }
       },
-      "System.Runtime.Caching/6.0.0": {
+      "System.Runtime.Caching/8.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Configuration.ConfigurationManager": "6.0.0"
+          "System.Configuration.ConfigurationManager": "8.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Runtime.Caching.dll": {
+          "lib/net8.0/System.Runtime.Caching.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/System.Runtime.Caching.dll": {
+          "lib/net8.0/System.Runtime.Caching.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
+          "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net6.0/System.Runtime.Caching.dll": {
+          "runtimes/win/lib/net8.0/System.Runtime.Caching.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -396,7 +396,7 @@
           }
         }
       },
-      "System.Security.Cryptography.ProtectedData/9.0.10": {
+      "System.Security.Cryptography.ProtectedData/10.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
@@ -440,7 +440,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "EntityFramework": "6.5.1",
-          "Microsoft.AspNetCore.SystemWebAdapters": "1.4.0",
+          "Microsoft.AspNetCore.SystemWebAdapters": "2.0.0",
           "System.Configuration.ConfigurationManager": "0.0.0"
         },
         "compile": {
@@ -599,26 +599,23 @@
         "tools/net6.0/any/ef6.runtimeconfig.json"
       ]
     },
-    "Magick.NET-Q8-AnyCPU/13.9.1": {
-      "sha512": "kjY1nttE1hGPgCBeBXNhdNNP/6PbT8/vCAxg/kjJMHMZ5if1wzJZN5WQYV2ygzny/X6mfik4v7qnqx3l1lQW6w==",
+    "Magick.NET-Q8-AnyCPU/14.8.2": {
+      "sha512": "zvxHpMdHqVwOoiAShgQsZfIlgT2PU5wRaDAc38go6ytlM7pk3SGpzOV49RlDC2CV+T1G+r4y/Fh7//YYCh7A5g==",
       "type": "package",
-      "path": "magick.net-q8-anycpu/13.9.1",
+      "path": "magick.net-q8-anycpu/14.8.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Magick.NET.icon.png",
-        "Notice.linux-musl.txt",
-        "Notice.linux.txt",
-        "Notice.osx.txt",
-        "Notice.win.txt",
+        "Notice.txt",
         "build/netstandard20/Magick.NET-Q8-AnyCPU.targets",
         "buildTransitive/netstandard20/Magick.NET-Q8-AnyCPU.targets",
         "docs/Readme.md",
+        "lib/net8.0/Magick.NET-Q8-AnyCPU.dll",
+        "lib/net8.0/Magick.NET-Q8-AnyCPU.xml",
         "lib/netstandard20/Magick.NET-Q8-AnyCPU.dll",
         "lib/netstandard20/Magick.NET-Q8-AnyCPU.xml",
-        "lib/netstandard21/Magick.NET-Q8-AnyCPU.dll",
-        "lib/netstandard21/Magick.NET-Q8-AnyCPU.xml",
-        "magick.net-q8-anycpu.13.9.1.nupkg.sha512",
+        "magick.net-q8-anycpu.14.8.2.nupkg.sha512",
         "magick.net-q8-anycpu.nuspec",
         "runtimes/linux-arm64/native/Magick.Native-Q8-arm64.dll.so",
         "runtimes/linux-musl-x64/native/Magick.Native-Q8-x64.dll.so",
@@ -648,10 +645,10 @@
         "magick.net.core.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.SystemWebAdapters/1.4.0": {
-      "sha512": "KIlmypHwMDLV5H1DzkvP2yM6vXpOGcrC+s+8xuQil1+j0c/7ZLP9czeiiQxCaIRyiGF8VvxYeyyS7ZFYoiIwXw==",
+    "Microsoft.AspNetCore.SystemWebAdapters/2.0.0": {
+      "sha512": "e3GbQwSl8qHPb+rc6k/zdw9lVSEJEld5GFsyDPD5V3y+d5otyMbYhMC3SdjqG1GmECFN/W4eORl0T5mAKlwYUA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.systemwebadapters/1.4.0",
+      "path": "microsoft.aspnetcore.systemwebadapters/2.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -663,13 +660,11 @@
         "lib/net45/Microsoft.AspNetCore.SystemWebAdapters.pdb",
         "lib/net472/Microsoft.AspNetCore.SystemWebAdapters.dll",
         "lib/net472/Microsoft.AspNetCore.SystemWebAdapters.pdb",
-        "lib/net6.0/Microsoft.AspNetCore.SystemWebAdapters.dll",
-        "lib/net6.0/Microsoft.AspNetCore.SystemWebAdapters.pdb",
         "lib/net8.0/Microsoft.AspNetCore.SystemWebAdapters.dll",
         "lib/net8.0/Microsoft.AspNetCore.SystemWebAdapters.pdb",
         "lib/netstandard2.0/Microsoft.AspNetCore.SystemWebAdapters.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.SystemWebAdapters.pdb",
-        "microsoft.aspnetcore.systemwebadapters.1.4.0.nupkg.sha512",
+        "microsoft.aspnetcore.systemwebadapters.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.systemwebadapters.nuspec"
       ]
     },
@@ -982,21 +977,22 @@
         "version.txt"
       ]
     },
-    "System.Configuration.ConfigurationManager/9.0.10": {
-      "sha512": "5CBhl5dWmckKEtvk8F6GXtmHxNBoqAC8xILxIntNm7AzHiXQ09CXSLhncIJ/cQWaiNYzLjHZCgtMfx9tkCKHdA==",
+    "System.Configuration.ConfigurationManager/10.0.0": {
+      "sha512": "0B+BzJ6pPMrRzJrVsttKf9MfDj6Syw9xoY+agcS9VssYQali1446+jTf5v1K94AMFUBxLXqDZlaTjO5edaI3jA==",
       "type": "package",
-      "path": "system.configuration.configurationmanager/9.0.10",
+      "path": "system.configuration.configurationmanager/10.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "LICENSE.TXT",
         "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/System.Configuration.ConfigurationManager.targets",
         "buildTransitive/net462/_._",
         "buildTransitive/net8.0/_._",
         "buildTransitive/netcoreapp2.0/System.Configuration.ConfigurationManager.targets",
+        "lib/net10.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net10.0/System.Configuration.ConfigurationManager.xml",
         "lib/net462/System.Configuration.ConfigurationManager.dll",
         "lib/net462/System.Configuration.ConfigurationManager.xml",
         "lib/net8.0/System.Configuration.ConfigurationManager.dll",
@@ -1005,7 +1001,7 @@
         "lib/net9.0/System.Configuration.ConfigurationManager.xml",
         "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
         "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
-        "system.configuration.configurationmanager.9.0.10.nupkg.sha512",
+        "system.configuration.configurationmanager.10.0.0.nupkg.sha512",
         "system.configuration.configurationmanager.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1096,21 +1092,22 @@
         "version.txt"
       ]
     },
-    "System.Diagnostics.EventLog/9.0.10": {
-      "sha512": "Jc+az1pTMujPLDn2j5eqSfzlO7j/T1K/LB7THxdfRWOxujE4zaitUqBs7sv1t6/xmmvpU6Xx3IofCs4owYH0yQ==",
+    "System.Diagnostics.EventLog/10.0.0": {
+      "sha512": "uaFRda9NjtbJRkdx311eXlAA3n2em7223c1A8d1VWyl+4FL9vkG7y2lpPfBU9HYdj/9KgdRNdn1vFK8ZYCYT/A==",
       "type": "package",
-      "path": "system.diagnostics.eventlog/9.0.10",
+      "path": "system.diagnostics.eventlog/10.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "LICENSE.TXT",
         "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/System.Diagnostics.EventLog.targets",
         "buildTransitive/net462/_._",
         "buildTransitive/net8.0/_._",
         "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
+        "lib/net10.0/System.Diagnostics.EventLog.dll",
+        "lib/net10.0/System.Diagnostics.EventLog.xml",
         "lib/net462/System.Diagnostics.EventLog.dll",
         "lib/net462/System.Diagnostics.EventLog.xml",
         "lib/net8.0/System.Diagnostics.EventLog.dll",
@@ -1119,50 +1116,55 @@
         "lib/net9.0/System.Diagnostics.EventLog.xml",
         "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
         "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net10.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net10.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net10.0/System.Diagnostics.EventLog.xml",
         "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll",
         "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll",
         "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.xml",
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll",
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll",
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.xml",
-        "system.diagnostics.eventlog.9.0.10.nupkg.sha512",
+        "system.diagnostics.eventlog.10.0.0.nupkg.sha512",
         "system.diagnostics.eventlog.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Runtime.Caching/6.0.0": {
-      "sha512": "E0e03kUp5X2k+UAoVl6efmI7uU7JRBWi5EIdlQ7cr0NpBGjHG4fWII35PgsBY9T4fJQ8E4QPsL0rKksU9gcL5A==",
+    "System.Runtime.Caching/8.0.0": {
+      "sha512": "4TmlmvGp4kzZomm7J2HJn6IIx0UUrQyhBDyb5O1XiunZlQImXW+B8b7W/sTPcXhSf9rp5NR5aDtQllwbB5elOQ==",
       "type": "package",
-      "path": "system.runtime.caching/6.0.0",
+      "path": "system.runtime.caching/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
+        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/System.Runtime.Caching.targets",
-        "buildTransitive/netcoreapp3.1/_._",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
-        "lib/net461/_._",
+        "lib/net462/_._",
         "lib/net6.0/System.Runtime.Caching.dll",
         "lib/net6.0/System.Runtime.Caching.xml",
-        "lib/netcoreapp3.1/System.Runtime.Caching.dll",
-        "lib/netcoreapp3.1/System.Runtime.Caching.xml",
+        "lib/net7.0/System.Runtime.Caching.dll",
+        "lib/net7.0/System.Runtime.Caching.xml",
+        "lib/net8.0/System.Runtime.Caching.dll",
+        "lib/net8.0/System.Runtime.Caching.xml",
         "lib/netstandard2.0/System.Runtime.Caching.dll",
         "lib/netstandard2.0/System.Runtime.Caching.xml",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "runtimes/win/lib/net461/_._",
         "runtimes/win/lib/net6.0/System.Runtime.Caching.dll",
         "runtimes/win/lib/net6.0/System.Runtime.Caching.xml",
-        "runtimes/win/lib/netcoreapp3.1/System.Runtime.Caching.dll",
-        "runtimes/win/lib/netcoreapp3.1/System.Runtime.Caching.xml",
-        "runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
-        "runtimes/win/lib/netstandard2.0/System.Runtime.Caching.xml",
-        "system.runtime.caching.6.0.0.nupkg.sha512",
+        "runtimes/win/lib/net7.0/System.Runtime.Caching.dll",
+        "runtimes/win/lib/net7.0/System.Runtime.Caching.xml",
+        "runtimes/win/lib/net8.0/System.Runtime.Caching.dll",
+        "runtimes/win/lib/net8.0/System.Runtime.Caching.xml",
+        "system.runtime.caching.8.0.0.nupkg.sha512",
         "system.runtime.caching.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1213,15 +1215,14 @@
         "version.txt"
       ]
     },
-    "System.Security.Cryptography.ProtectedData/9.0.10": {
-      "sha512": "iC0InhfWdk0nHlbcTAAUyWt9X4+CsaZz9elQy0otFcsUkd/Wm+DmEwjqyH9PgFl1XcSowzhv67njCstABTc3Hw==",
+    "System.Security.Cryptography.ProtectedData/10.0.0": {
+      "sha512": "qy6C3gQRTrfhFfuiIYU1jNwWfFdJpBVo1BARW7jgMm1zTEm3LRzLLyOLJGaAuKE+nZCGkEP71y4rj9NWjqLGdQ==",
       "type": "package",
-      "path": "system.security.cryptography.protecteddata/9.0.10",
+      "path": "system.security.cryptography.protecteddata/10.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "LICENSE.TXT",
         "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/System.Security.Cryptography.ProtectedData.targets",
@@ -1230,6 +1231,8 @@
         "buildTransitive/netcoreapp2.0/System.Security.Cryptography.ProtectedData.targets",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
+        "lib/net10.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net10.0/System.Security.Cryptography.ProtectedData.xml",
         "lib/net462/System.Security.Cryptography.ProtectedData.dll",
         "lib/net462/System.Security.Cryptography.ProtectedData.xml",
         "lib/net8.0/System.Security.Cryptography.ProtectedData.dll",
@@ -1242,7 +1245,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "system.security.cryptography.protecteddata.9.0.10.nupkg.sha512",
+        "system.security.cryptography.protecteddata.10.0.0.nupkg.sha512",
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1314,7 +1317,7 @@
       "AWSSDK.S3 >= 4.0.7.7",
       "Bookstore.Domain >= 1.0.0",
       "EntityFramework >= 6.5.1",
-      "Magick.NET-Q8-AnyCPU >= 13.9.1",
+      "Magick.NET-Q8-AnyCPU >= 14.8.2",
       "Magick.NET.Core >= 14.8.2",
       "System.Configuration.ConfigurationManager >= *"
     ]
@@ -1391,7 +1394,7 @@
           },
           "Magick.NET-Q8-AnyCPU": {
             "target": "Package",
-            "version": "[13.9.1, )"
+            "version": "[14.8.2, )"
           },
           "Magick.NET.Core": {
             "target": "Package",
@@ -1427,47 +1430,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Magick.NET-Q8-AnyCPU' 13.9.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6hgw-6x87-578x",
-      "libraryId": "Magick.NET-Q8-AnyCPU",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Magick.NET-Q8-AnyCPU' 13.9.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9pp9-cfwx-54rm",
-      "libraryId": "Magick.NET-Q8-AnyCPU",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Magick.NET-Q8-AnyCPU' 13.9.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-cfh4-9f7v-fhrc",
-      "libraryId": "Magick.NET-Q8-AnyCPU",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Magick.NET-Q8-AnyCPU' 13.9.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-fh55-q5pj-pxgw",
-      "libraryId": "Magick.NET-Q8-AnyCPU",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Magick.NET-Q8-AnyCPU' 13.9.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-hm4x-r5hc-794f",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9pp9-cfwx-54rm",
       "libraryId": "Magick.NET-Q8-AnyCPU",
       "targetGraphs": [
         "net8.0"

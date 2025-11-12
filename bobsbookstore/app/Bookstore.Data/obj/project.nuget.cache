@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GyhfvclTdNA=",
+  "dgSpecHash": "Qdw3MZmizKQ=",
   "success": true,
   "projectFilePath": "/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/sourceCode/bobsbookstore/app/Bookstore.Data/Bookstore.Data.csproj",
   "expectedPackageFiles": [
@@ -8,9 +8,9 @@
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/awssdk.rekognition/4.0.1.11/awssdk.rekognition.4.0.1.11.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/awssdk.s3/4.0.7.7/awssdk.s3.4.0.7.7.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/entityframework/6.5.1/entityframework.6.5.1.nupkg.sha512",
-    "/tmp/tempfspartition/QnetTransformArtifacts/packages/magick.net-q8-anycpu/13.9.1/magick.net-q8-anycpu.13.9.1.nupkg.sha512",
+    "/tmp/tempfspartition/QnetTransformArtifacts/packages/magick.net-q8-anycpu/14.8.2/magick.net-q8-anycpu.14.8.2.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/magick.net.core/14.8.2/magick.net.core.14.8.2.nupkg.sha512",
-    "/tmp/tempfspartition/QnetTransformArtifacts/packages/microsoft.aspnetcore.systemwebadapters/1.4.0/microsoft.aspnetcore.systemwebadapters.1.4.0.nupkg.sha512",
+    "/tmp/tempfspartition/QnetTransformArtifacts/packages/microsoft.aspnetcore.systemwebadapters/2.0.0/microsoft.aspnetcore.systemwebadapters.2.0.0.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
@@ -20,12 +20,12 @@
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.codedom/6.0.0/system.codedom.6.0.0.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.configuration.configurationmanager/9.0.10/system.configuration.configurationmanager.9.0.10.nupkg.sha512",
+    "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.configuration.configurationmanager/10.0.0/system.configuration.configurationmanager.10.0.0.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.data.sqlclient/4.8.6/system.data.sqlclient.4.8.6.nupkg.sha512",
-    "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.diagnostics.eventlog/9.0.10/system.diagnostics.eventlog.9.0.10.nupkg.sha512",
-    "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.runtime.caching/6.0.0/system.runtime.caching.6.0.0.nupkg.sha512",
+    "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.diagnostics.eventlog/10.0.0/system.diagnostics.eventlog.10.0.0.nupkg.sha512",
+    "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.runtime.caching/8.0.0/system.runtime.caching.8.0.0.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.security.cryptography.protecteddata/9.0.10/system.security.cryptography.protecteddata.9.0.10.nupkg.sha512",
+    "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.security.cryptography.protecteddata/10.0.0/system.security.cryptography.protecteddata.10.0.0.nupkg.sha512",
     "/tmp/tempfspartition/QnetTransformArtifacts/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": [
@@ -33,47 +33,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Magick.NET-Q8-AnyCPU' 13.9.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6hgw-6x87-578x",
-      "libraryId": "Magick.NET-Q8-AnyCPU",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Magick.NET-Q8-AnyCPU' 13.9.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9pp9-cfwx-54rm",
-      "libraryId": "Magick.NET-Q8-AnyCPU",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Magick.NET-Q8-AnyCPU' 13.9.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-cfh4-9f7v-fhrc",
-      "libraryId": "Magick.NET-Q8-AnyCPU",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Magick.NET-Q8-AnyCPU' 13.9.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-fh55-q5pj-pxgw",
-      "libraryId": "Magick.NET-Q8-AnyCPU",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Magick.NET-Q8-AnyCPU' 13.9.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-hm4x-r5hc-794f",
+      "message": "Package 'Magick.NET-Q8-AnyCPU' 14.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9pp9-cfwx-54rm",
       "libraryId": "Magick.NET-Q8-AnyCPU",
       "targetGraphs": [
         "net8.0"
