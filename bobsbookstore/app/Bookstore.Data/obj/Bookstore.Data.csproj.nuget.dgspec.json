@@ -73,7 +73,7 @@
             },
             "Magick.NET-Q8-AnyCPU": {
               "target": "Package",
-              "version": "[13.9.1, )"
+              "version": "[14.8.2, )"
             },
             "Magick.NET.Core": {
               "target": "Package",
@@ -157,7 +157,7 @@
             },
             "Microsoft.AspNetCore.SystemWebAdapters": {
               "target": "Package",
-              "version": "[1.4.0, )"
+              "version": "[2.0.0, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",

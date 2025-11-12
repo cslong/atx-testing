@@ -13,6 +13,6 @@
     <SourceRoot Include="/tmp/tempfspartition/QnetTransformArtifacts/packages/" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgAmazon_JSII_Analyzers Condition=" '$(PkgAmazon_JSII_Analyzers)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/amazon.jsii.analyzers/1.118.0</PkgAmazon_JSII_Analyzers>
+    <PkgAmazon_JSII_Analyzers Condition=" '$(PkgAmazon_JSII_Analyzers)' == '' ">/tmp/tempfspartition/QnetTransformArtifacts/packages/amazon.jsii.analyzers/1.119.0</PkgAmazon_JSII_Analyzers>
   </PropertyGroup>
 </Project>
